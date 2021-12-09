@@ -1,1 +1,0 @@
-(()=>{let e=document.createElement("h1");e.textContent="Hello, Webpack!",document.body.appendChild(e)})();

@@ -1,3 +1,10 @@
-let msg = document.createElement("h1");
-msg.textContent = "Hello, Webpack!";
-document.body.appendChild(msg);
+import './all.css'
+
+
+let a = 'Hello';
+let b = 'webpack';
+console.log(`${a}, ${b}!!!`);
+
+const arr = [1,2,3];
+
+const index = arr.findIndex((item) => console.log(item));
