@@ -1,0 +1,16 @@
+$test-color: blue;
+h1 {
+  color: $test-color;
+}
+$primaryColor: #336699;
+
+@mixin circle($size, $color: pink) {
+    height: $size;
+    width: $size;
+    background-color: $color;
+    border-radius: 50%;
+}
+
+.btn-candy {
+    @include circle(60px, $primaryColor);
+}

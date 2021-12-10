@@ -1,4 +1,4 @@
-import './all.css'
+import './index.scss'
 
 
 let a = 'Hello';
